@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Bree Serif", serif;
+}
+
+/* Hide all sections */
+.section {
+  display: none;
+  min-height: 100vh;
+}
+
+/* ---------------- HOME ---------------- */
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.heading {
+  color: #f19116;
+  font-size: 26px;
+}
+
+.desc {
+  color: #7b8794;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #f19116;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d67f0d;
+}
+
+/* ---------------- FLATS LIST ---------------- */
+.bg-container-two {
+  background-color: #222222;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.bg-container-two .heading {
+  color: #f19116;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card-container-two {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 12px;
+}
+
+.image {
+  width: 100px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.desc-card {
+  padding-left: 12px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #0f0e46;
+  font-weight: bold;
+}
+
+.desc-two {
+  font-size: 13px;
+  color: #6c6b70;
+}
+
+/* ---------------- DETAILS ---------------- */
+.bg-container-three {
+  background-color: #222222;
+  min-height: 100vh;
+}
+
+.big-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+.detail-container {
+  padding: 20px;
+}
+
+.price {
+  font-size: 20px;
+  color: #f19116;
+  margin-bottom: 10px;
+}
+
+.small-image {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.loc-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.desc-three {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.orange {
+  color: #f19116;
+}
+
+.horozontal-line {
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 15px 0;
+}
+
+.button-card {
+  text-align: center;
+  margin-top: 15px;
+}
