@@ -1,5 +1,5 @@
 # Real_Estate
-Sunrise Avenue is a responsive static webpage designed to showcase different types of flats (2BHK, 3BHK, and 4BHK).
+Aurora Residences is a responsive static webpage designed to showcase different types of flats (2BHK, 3BHK, and 4BHK).
 It allows users to explore available flats, view details such as price, location, and description, and navigate smoothly between the home page, list page, and flat details pages.
 
 ## Features
