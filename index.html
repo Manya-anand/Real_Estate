@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aurora Residences — Modern Flats</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="flat.css" />
+</head>
+<body>
+
+  <!-- HOME -->
+  <section id="sectionhome" class="section">
+    <div class="bg-container">
+      <div class="card-container" role="region" aria-labelledby="home-title">
+        <h1 id="home-title" class="heading">Aurora Residences</h1>
+        <p class="desc">Thoughtfully designed homes — smart, comfortable and ready to move in.</p>
+        <div class="home-cta">
+          <button class="button primary" data-target="sectionlist">Explore Flats</button>
+          <a class="ghost" href="#contact" data-target="sectioncontact">Contact Sales</a>
+        </div>
+        <ul class="highlights">
+          <li>Fully furnished options</li>
+          <li>24/7 Security &amp; Concierge</li>
+          <li>Nearby transit &amp; amenities</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7d6e8b3a0f2b1e1" alt="Modern living room" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FLATS LIST -->
+  <section id="sectionlist" class="section">
+    <div class="list-wrapper">
+      <header class="list-header">
+        <h2>Available Homes</h2>
+        <p class="muted">Choose a layout that fits your lifestyle — click any card to view full details.</p>
+      </header>
+
+      <div class="cards-grid">
+        <article class="flat-card" tabindex="0" data-target="section3bhk">
+          <img class="card-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" alt="3BHK interior" />
+          <div class="card-body">
+            <h3>3BHK — Harmony</h3>
+            <p class="muted">1600 sq.ft • Spacious living • En-suite master • Premium finishes</p>
+            <div class="card-meta">
+              <span class="price">₹ 5,25,000</span>
+              <button class="button small" data-target="section3bhk">View</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="flat-card" tabindex="0" data-target="section2bhk">
+          <img class="card-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" alt="2BHK interior" />
+          <div class="card-body">
+            <h3>2BHK — Nimbus</h3>
+            <p class="muted">1200 sq.ft • Compact & modern • Ideal for small families</p>
+            <div class="card-meta">
+              <span class="price">₹ 3,75,000</span>
+              <button class="button small" data-target="section2bhk">View</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="flat-card" tabindex="0" data-target="section4bhk">
+          <img class="card-image" src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" alt="4BHK interior" />
+          <div class="card-body">
+            <h3>4BHK — Panorama</h3>
+            <p class="muted">3600 sq.ft • Great for large families • Grand living & terrace</p>
+            <div class="card-meta">
+              <span class="price">₹ 9,50,000</span>
+              <button class="button small" data-target="section4bhk">View</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="list-actions">
+        <button class="button ghost" data-target="sectionhome">Back to Home</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3BHK DETAILS -->
+  <section id="section3bhk" class="section">
+    <div class="detail-wrapper">
+      <div class="detail-media">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" alt="3BHK large view" class="big-image" />
+      </div>
+      <div class="detail-info">
+        <h2 class="heading">3BHK — Harmony</h2>
+        <p class="price">₹ 5,25,000</p>
+        <p class="muted">D/N 5-2, Serenity Park, Indore</p>
+
+        <h4 class="section-sub">About this home</h4>
+        <p class="desc-three">A generous 3-bedroom layout with an en-suite master bathroom, open kitchen, and a bright living area. Comes fully furnished with modular kitchen, wardrobes and quality fixtures. Ideal for families seeking comfort and style.</p>
+
+        <ul class="features">
+          <li>Smart thermostat &amp; energy-efficient lighting</li>
+          <li>Dedicated parking &amp; storage</li>
+          <li>High-speed internet ready</li>
+        </ul>
+
+        <div class="button-card">
+          <button class="button primary" data-target="sectioncontact">Enquire</button>
+          <button class="button ghost" data-target="sectionlist">Back</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2BHK DETAILS -->
+  <section id="section2bhk" class="section">
+    <div class="detail-wrapper">
+      <div class="detail-media">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" alt="2BHK large view" class="big-image" />
+      </div>
+      <div class="detail-info">
+        <h2 class="heading">2BHK — Nimbus</h2>
+        <p class="price">₹ 3,75,000</p>
+        <p class="muted">D/N 6-2, Serenity Park, Indore</p>
+
+        <h4 class="section-sub">About this home</h4>
+        <p class="desc-three">A modern 2-bedroom option with efficient layout, stylish finishes and a compact balcony. Perfect for young couples or small families who value location and convenience.</p>
+
+        <ul class="features">
+          <li>Clubhouse access</li>
+          <li>Proximity to schools &amp; transit</li>
+          <li>Premium kitchen fittings</li>
+        </ul>
+
+        <div class="button-card">
+          <button class="button primary" data-target="sectioncontact">Enquire</button>
+          <button class="button ghost" data-target="sectionlist">Back</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4BHK DETAILS -->
+  <section id="section4bhk" class="section">
+    <div class="detail-wrapper">
+      <div class="detail-media">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" alt="4BHK large view" class="big-image" />
+      </div>
+      <div class="detail-info">
+        <h2 class="heading">4BHK — Panorama</h2>
+        <p class="price">₹ 9,50,000</p>
+        <p class="muted">D/N 8-1, Serenity Park, Indore</p>
+
+        <h4 class="section-sub">About this home</h4>
+        <p class="desc-three">A luxury family home offering expansive living rooms, terrace access and premium fittings. Perfect for multi-generational households or those who entertain frequently.</p>
+
+        <ul class="features">
+          <li>Private terrace options</li>
+          <li>Premium flooring &amp; fixtures</li>
+          <li>Extra storage &amp; concierge services</li>
+        </ul>
+
+        <div class="button-card">
+          <button class="button primary" data-target="sectioncontact">Enquire</button>
+          <button class="button ghost" data-target="sectionlist">Back</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / ENQUIRY -->
+  <section id="sectioncontact" class="section">
+    <div class="contact-wrapper">
+      <div class="contact-card">
+        <h2>Contact Sales</h2>
+        <p class="muted">Reach out and we'll help you book a walkthrough.</p>
+
+        <form id="enquiryForm">
+          <label class="label">Full name</label>
+          <input name="name" class="input" required />
+
+          <label class="label">Email</label>
+          <input name="email" type="email" class="input" required />
+
+          <label class="label">Mobile</label>
+          <input name="phone" class="input" required />
+
+          <label class="label">Message (optional)</label>
+          <textarea name="message" rows="4" class="input"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="button primary">Send enquiry</button>
+            <button type="button" class="button ghost" data-target="sectionhome">Cancel</button>
+          </div>
+
+          <div id="formStatus" class="muted" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <aside class="contact-info">
+        <h3>Visit us</h3>
+        <p class="muted">Serenity Park, Indore</p>
+        <p class="muted">Mon - Sat, 9am - 6pm</p>
+        <h3>Phone</h3>
+        <p class="muted">+91 98765 43210</p>
+        <h3>Email</h3>
+        <p class="muted">sales@auroraresidences.example</p>
+      </aside>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
